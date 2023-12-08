@@ -5,7 +5,7 @@ namespace Space_Weather_API.Models
 	public class WeatherInfo
 	{
 		[JsonPropertyName("id")]
-		public required string Id { get; set; }
+		public required int Id { get; set; }
 		[JsonPropertyName("planet")]
 		public required string Planet { get; set; }
 		[JsonPropertyName("condition")]
